@@ -1,0 +1,89 @@
+/* Write your CSS here */
+/* style.css */
+body {
+  background: color; #3DB6AD;
+  color: green;
+  margin: 10px;
+  font-size: 25px;
+  font-family: ubuntu;
+}
+
+h1 {
+  font-family: ubuntu;
+  color: white;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: ubuntu;
+  color: blue;
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+#banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+#banner img {
+  border: 5px solid white;
+}
+
+#banner h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px #3DB6AD;
+}
+
+#banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #F18805;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn:hover {
+  background-color: #613F75;
+  opacity: 0.8;
+  border: 2px solid white;
+}
+
+.card {
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+.cards {
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  width: 1000px;
+}
